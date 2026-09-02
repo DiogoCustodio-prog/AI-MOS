@@ -6,8 +6,8 @@ document:
   status: In Review
   version:
     epoch: E001
-    semantic: 0.1.0
-    full: E001-v0.1.0
+    semantic: 0.1.1
+    full: E001-v0.1.1
 
 ownership:
   organization: Inovador Tech
@@ -24,7 +24,7 @@ lifecycle:
 
 metadata:
   created: 2026-08-11
-  updated: 2026-08-11
+  updated: 2026-09-02
   language: en-US
   tags:
     - ai-mos
