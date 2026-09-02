@@ -357,7 +357,7 @@ A rename MUST:
 - preserve `document.id` when the concept is unchanged;
 - update all relative references that point to the old path;
 - preserve or update the title only when semantically justified;
-- be recorded in the repository history once Git is available;
+- be recorded in the repository's Git history;
 - be reviewed for Obsidian and future index compatibility.
 
 A filename MUST NOT be used to silently change a document's authority or architectural layer.
@@ -510,9 +510,9 @@ Predictable names help Claude Code locate and classify documents, but Claude Cod
 
 ### 13.2 Git and GitHub
 
-Portable ASCII names, stable paths, and focused renames reduce merge conflicts and make review history easier to understand. A future Git workflow SHOULD treat a rename that preserves `document.id` as an identity-preserving change.
+Portable ASCII names, stable paths, and focused renames reduce merge conflicts and make review history easier to understand. A Git workflow SHOULD treat a rename that preserves `document.id` as an identity-preserving change.
 
-The current workspace is not a Git repository. These are compatibility goals and conventions, not evidence that Git history, branches, hooks, or CI validation are currently available.
+The current workspace uses Git with a `main` branch and a configured `origin` remote. This does not imply that pull requests, hooks, CI validation, or other automation are configured or available.
 
 ### 13.3 Obsidian
 

@@ -485,7 +485,7 @@ The template gives Claude Code a predictable way to identify a document's purpos
 
 ### 9.2 Git and GitHub
 
-The stable ID, explicit version, relative relationships, and audit fields make proposed changes reviewable in repository history once Git is initialized. Generated or inferred metadata MUST NOT silently overwrite authoritative metadata.
+The stable ID, explicit version, relative relationships, and audit fields make proposed changes reviewable in the repository's Git history. Generated or inferred metadata MUST NOT silently overwrite authoritative metadata.
 
 ### 9.3 Obsidian
 

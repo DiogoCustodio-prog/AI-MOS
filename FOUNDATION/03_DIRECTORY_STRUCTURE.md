@@ -393,7 +393,7 @@ The structure gives Claude Code stable areas for reading and editing, but Claude
 
 ### 13.2 Git and GitHub
 
-The current workspace is not a Git repository. The structure is designed to support future version control through small, reviewable areas, stable paths, explicit relationships, and clear ownership. No branch, commit, hook, or CI capability is implied.
+The current workspace is a Git repository with a `main` branch, an initial commit, and a configured `origin` remote. The structure supports version control through small, reviewable areas, stable paths, explicit relationships, and clear ownership. The existence of Git does not imply that branch protection, pull requests, hooks, CI, build, lint, test runner, or automated metadata validation is currently configured.
 
 ### 13.3 Obsidian
 

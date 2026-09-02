@@ -360,9 +360,9 @@ Markdown is the primary canonical knowledge representation. Canonical files MUST
 
 ### 15.2 Git and GitHub
 
-Git is intended to provide history, review, and auditability, but the current workspace is not a Git repository. Documentation MUST NOT claim that commits, branches, pull requests, hooks, or CI checks exist until they are actually configured.
+Git provides history, review, and auditability in this workspace. Documentation MUST NOT claim that pull requests, hooks, CI checks, builds, linting, automated tests, or an automated metadata validator exist unless they are actually configured and verified.
 
-Once Git is available, normative changes SHOULD be reviewed as focused, traceable changes with preserved history.
+Normative changes SHOULD be reviewed as focused, traceable changes with preserved history in Git.
 
 ### 15.3 Obsidian
 

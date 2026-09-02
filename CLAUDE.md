@@ -24,7 +24,7 @@ Get-Content .\path\to\document.md
 
 Historical exports are under `source-material\chatgpt-exports`; canonical documents belong in the governed areas, not in the source-material directory.
 
-`git` is the intended future source-control and audit mechanism, but this checkout is not currently a Git repository. Once the repository is initialized, use `git status --short` before and after changes. When scripts and validation are added, record their exact build, lint, test, and single-test commands in this section rather than relying on the examples embedded in exported conversations.
+`git` is the current source-control and audit mechanism for this workspace: the repository is initialized, the `main` branch and `origin` remote are configured, and the initial history has been published. Use `git status --short` before and after changes. No build, lint, test runner, metadata validator, hooks, or CI configuration currently exists. When scripts and validation are added, record their exact build, lint, test, and single-test commands in this section rather than relying on the examples embedded in exported conversations.
 
 ## Architectural model
 

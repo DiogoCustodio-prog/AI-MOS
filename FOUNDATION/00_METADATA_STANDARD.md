@@ -1171,7 +1171,7 @@ The following fields are expected to change during the document lifecycle:
 - `audit.last_review`;
 - `relations` as the document graph evolves.
 
-Normative changes MUST increment the document version according to the hybrid versioning rules and MUST be visible in repository history once Git is available.
+Normative changes MUST increment the document version according to the hybrid versioning rules and MUST be visible in the repository's Git history.
 
 ## 21. Filename Independence
 
@@ -1250,7 +1250,7 @@ Claude Code SHOULD NOT infer these properties from filenames when the metadata p
 
 ### 24.2 Git and GitHub
 
-Canonical metadata changes MUST be reviewable in Git history once the repository is initialized.
+Canonical metadata changes MUST be reviewable in the repository's Git history.
 
 Generated metadata MUST NOT overwrite authoritative metadata without a documented governance process.
 
