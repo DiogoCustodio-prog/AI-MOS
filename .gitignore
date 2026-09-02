@@ -1,0 +1,8 @@
+# Claude Code session memory is local-only and is not AI-MOS canonical knowledge.
+/memory/
+
+# Local editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
